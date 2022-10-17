@@ -22,12 +22,22 @@
 // }
 // console.log (titre)
 
-const images = document.querySelectorAll("img")
-for (imgImp of images){
-    if ((".important")[0]){
-        imgImp.style.display = "block";
-    } else {
-        imgImp.style.display = "none";
-    }
+// const images = document.querySelectorAll("img")
+//   for (const imgImp of images){
+//         if (images.classList.contains("important")){
+//             imgImp =true;
+//         }
+//         else {
+//         document.style.display = "none";
+//     }
+// }
+// console.log(imgImp)
+// const parclass = classList.length
+
+
+const paras = document.querySelectorAll('p');
+for (para of paras){
+   console.log (para.innerText)
 }
-console.log(imgImp)
+
+
