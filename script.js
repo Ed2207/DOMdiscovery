@@ -35,9 +35,9 @@
 // const parclass = classList.length
 
 
-const paras = document.querySelectorAll('p');
-for (para of paras){
-   console.log (para.innerText)
-}
+// const paras = document.querySelectorAll('p');
+// for (para of paras){
+//    console.log (para.innerText)
+// }
 
 
