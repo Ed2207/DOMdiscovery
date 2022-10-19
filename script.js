@@ -21,23 +21,20 @@
 //     titre.setAttribute ("title","This is an important item")
 // }
 // console.log (titre)
+const imgclass = (element) => {
+    return element.classList.length > 0;
+};
 
-// const images = document.querySelectorAll("img")
-//   for (const imgImp of images){
-//         if (images.classList.contains("important")){
-//             imgImp =true;
-//         }
-//         else {
-//         document.style.display = "none";
-//     }
-// }
-// console.log(imgImp)
-// const parclass = classList.length
-
-
-// const paras = document.querySelectorAll('p');
-// for (para of paras){
-//    console.log (para.innerText)
-// }
-
+const paragraphs = document.querySelectorAll("p");
+for(const paragraph of paragraphs) {
+    if (imgclass(paragraph)) {
+        console.log(paragraph.innerHTML);
+        console.log(paragraph.classList.value)
+    } else {
+        const a = Math.floor(Math.random() * 254);
+        const b = Math.floor(Math.random() * 254);
+        const c = Math.floor(Math.random() * 254);
+        paragraph.style.color = `rgb(${a}, ${b}, ${c})`;
+    }
+}
 
