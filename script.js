@@ -210,5 +210,18 @@
 
 //DOM Drill
 
+// const filmL = document.querySelector ("ul");
+// // console.log (filmL.innerText);
+// const filmC = document.querySelector("ul").children;
+// // console.log (filmC)
+// for (const film of filmC) {
 
+//   console.log (film.innerText)
+    
+// }
+// const fAndF = (e) => {
+//   if (document.contains("Fast and Furious"))
+// }
 
+const film = document.querySelector("ul").querySelectorAll("li");
+console.log (film)
